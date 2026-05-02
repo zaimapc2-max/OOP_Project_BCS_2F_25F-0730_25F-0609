@@ -264,3 +264,86 @@ public:
 		return dx <= 1 && dy <= 1;
 	}
 };
+//Board Class
+class Board {
+private:
+    Piece* squares[8][8];
+
+public:
+    Board() {       //constructor
+        for (int i = 0; i < 8; i++)
+            for (int j = 0; j < 8; j++)
+                squares[i][j] = new EmptySquare();
+    }
+
+    ~Board() {          //destructor
+        for (int i = 0; i < 8; i++)
+            for (int j = 0; j < 8; j++)
+                delete squares[i][j];
+    }
+
+    Piece* getPiece(int x, int y) {
+        if (x >= 0 && x < 8 && y >= 0 && y < 8)
+            return squares[x][y];
+        return nullptr;
+    }
+
+    void setPiece(int x, int y, Piece* piece) {
+        delete squares[x][y];
+        squares[x][y] = piece;
+    }
+
+    void setPieceNoDelete(int x, int y, Piece* piece) {
+        squares[x][y] = piece;
+    }
+
+    void display() {            //display board
+        cout << "\n    a   b   c   d   e   f   g   h\n";
+        cout << "  +---+---+---+---+---+---+---+---+\n";
+
+        for (int i = 0; i < 8; i++) {
+            cout << (8 - i) << " | ";
+
+            for (int j = 0; j < 8; j++) {
+                if (squares[i][j] != nullptr)
+                    cout << squares[i][j]->getSymbol() << " | ";
+                else
+                    cout << "? | ";
+            }
+            cout << (8 - i) << "\n";
+            cout << "  +---+---+---+---+---+---+---+---+\n";
+        }
+
+        cout << "    a   b   c   d   e   f   g   h\n\n";
+    }
+
+    Piece* (*getSquares())[8] {
+        return squares;
+    }
+
+    void initializeBoard() {
+        // Black pieces (rows 0-1)
+        setPiece(0, 0, new Rook(BLACK));
+        setPiece(0, 1, new Knight(BLACK));
+        setPiece(0, 2, new Bishop(BLACK));
+        setPiece(0, 3, new Queen(BLACK));
+        setPiece(0, 4, new King(BLACK));
+        setPiece(0, 5, new Bishop(BLACK));
+        setPiece(0, 6, new Knight(BLACK));
+        setPiece(0, 7, new Rook(BLACK));
+
+        for (int i = 0;i < 8;i++) setPiece(1, i, new Pawn(BLACK));
+
+        // White pieces (rows 6-7)
+        for (int i = 0;i < 8;i++) setPiece(6, i, new Pawn(WHITE));
+
+        setPiece(7, 0, new Rook(WHITE));
+        setPiece(7, 1, new Knight(WHITE));
+        setPiece(7, 2, new Bishop(WHITE));
+        setPiece(7, 3, new Queen(WHITE));
+        setPiece(7, 4, new King(WHITE));
+        setPiece(7, 5, new Bishop(WHITE));
+        setPiece(7, 6, new Knight(WHITE));
+        setPiece(7, 7, new Rook(WHITE));
+    }
+};
