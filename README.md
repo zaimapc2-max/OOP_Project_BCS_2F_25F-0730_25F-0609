@@ -45,7 +45,7 @@ This project was built as a final project for our 2nd semester to demonstrate co
 </p>
 
 <div class="section">
-    <h2>📌 Features</h2>
+    <h2>Features</h2>
     <ul>
         <li>Complete 8x8 Chess board</li>
         <li>All standard Chess pieces:
@@ -68,7 +68,7 @@ This project was built as a final project for our 2nd semester to demonstrate co
 </div>
 
 <div class="section">
-    <h2>🧠 OOP Concepts Used</h2>
+    <h2>OOP Concepts Used</h2>
     <ul>
         <li><strong>Encapsulation</strong> → Each class manages its own data and methods</li>
         <li><strong>Inheritance</strong> → Base class <code>Piece</code> with derived classes</li>
@@ -77,27 +77,10 @@ This project was built as a final project for our 2nd semester to demonstrate co
     </ul>
 </div>
 
-<div class="section">
-    <h2>🏗️ Project Structure</h2>
-<pre>
-Chess-OOP/
-│
-├── main.cpp
-├── Board.h / Board.cpp
-├── Piece.h / Piece.cpp
-├── Pawn.h / Pawn.cpp
-├── Rook.h / Rook.cpp
-├── Knight.h / Knight.cpp
-├── Bishop.h / Bishop.cpp
-├── Queen.h / Queen.cpp
-├── King.h / King.cpp
-│
-└── README.md
-</pre>
-</div>
+
 
 <div class="section">
-    <h2>▶️ How to Run</h2>
+    <h2>How to Run</h2>
 
     <h3>1. Clone the repository</h3>
 <pre>
@@ -129,7 +112,7 @@ g++ *.cpp -o chess
 </div>
 
 <div class="section">
-    <h2>⚠️ Limitations</h2>
+    <h2>Limitations</h2>
     <ul>
         <li>No AI opponent</li>
         <li>Console-based only (no GUI)</li>
@@ -144,26 +127,15 @@ g++ *.cpp -o chess
 </div>
 
 <div class="section">
-    <h2>🚀 Future Improvements</h2>
-    <ul>
-        <li>Add AI opponent (Minimax algorithm)</li>
-        <li>Build GUI using SFML or Qt</li>
-        <li>Save & load game feature</li>
-        <li>Online multiplayer</li>
-        <li>Complete all Chess rules</li>
-    </ul>
-</div>
-
-<div class="section">
     <h2>👩‍💻 Authors</h2>
     <ul>
-        <li><strong>Zaima Amjad</strong></li>
-        <li><strong>[Teammate Name]</strong></li>
+        <li><strong>Zaima Amjad (25F-0609)</strong></li>
+        <li><strong>Saba Tahir (25F-0730)</strong></li>
     </ul>
 </div>
 
 <div class="section">
-    <h2>📚 Learning Outcomes</h2>
+    <h2>Learning Outcomes</h2>
     <ul>
         <li>Applied OOP concepts in a real project</li>
         <li>Managed multiple interacting classes</li>
@@ -173,12 +145,21 @@ g++ *.cpp -o chess
 </div>
 
 <div class="section">
-    <h2>⭐ Acknowledgment</h2>
+    <h2>Acknowledgment</h2>
     <p>
         This project was developed as part of our university coursework for learning
         Object-Oriented Programming in C++.
     </p>
 </div>
-
+<div class="section">
+    <h2>📘 Course Information</h2>
+    <ul>
+        <li><strong>Course:</strong> Object-Oriented Programming</li>
+        <li><strong>Institution:</strong> NUCES Faisalabad-Chiniot Campus</li>
+        <li><strong>Instructor:</strong> Mr. Hannan Farooq</li>
+        <li><strong>Lab Instructor:</strong> Ms. Zainab Noor</li>
+        <li><strong>Session:</strong> Spring 2026</li>
+    </ul>
+</div>
 </body>
 </html>
