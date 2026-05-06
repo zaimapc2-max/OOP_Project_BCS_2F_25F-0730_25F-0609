@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OOP Chess Game</title>
+
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -12,42 +13,66 @@
             color: #e5e7eb;
             line-height: 1.6;
         }
-        h1, h2 {
+
+        h1 {
             color: #38bdf8;
+            text-align: center;
         }
+
+        h2 {
+            color: #38bdf8;
+            border-bottom: 2px solid #1e293b;
+            padding-bottom: 5px;
+        }
+
+        p {
+            max-width: 800px;
+        }
+
         code {
             background-color: #1e293b;
             padding: 4px 6px;
             border-radius: 5px;
         }
+
         pre {
             background-color: #1e293b;
             padding: 10px;
             border-radius: 8px;
             overflow-x: auto;
         }
+
         ul {
             margin-left: 20px;
         }
+
         .section {
-            margin-bottom: 30px;
+            margin-bottom: 35px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
         }
     </style>
 </head>
+
 <body>
 
-<h1>♟️ OOP Chess Game (C++)</h1>
+<div class="container">
+
+<h1>OOP Chess Game (C++)</h1>
 
 <p>
 A console-based Chess game developed using <strong>Object-Oriented Programming (OOP)</strong> principles in C++.
-This project was built as a final project for our 2nd semester to demonstrate core OOP concepts like
+This project was built as a final project for our 2nd semester to demonstrate core OOP concepts such as
 <strong>encapsulation, inheritance, polymorphism, and abstraction</strong>.
 </p>
 
 <div class="section">
     <h2>Features</h2>
     <ul>
-        <li>Complete 8x8 Chess board</li>
+        <li>Complete 8×8 Chess board</li>
         <li>All standard Chess pieces:
             <ul>
                 <li>Pawn</li>
@@ -77,36 +102,13 @@ This project was built as a final project for our 2nd semester to demonstrate co
     </ul>
 </div>
 
-
-
 <div class="section">
-    <h2>How to Run</h2>
-
-    <h3>1. Clone the repository</h3>
-<pre>
-git clone https://github.com/your-username/chess-oop.git
-cd chess-oop
-</pre>
-
-    <h3>2. Compile</h3>
-<pre>
-g++ *.cpp -o chess
-</pre>
-
-    <h3>3. Run</h3>
-<pre>
-./chess
-</pre>
-</div>
-
-<div class="section">
-    <h2>🎮 How to Play</h2>
+    <h2>How to Play</h2>
     <ul>
         <li>This is a 2-player game</li>
         <li>Players take turns entering moves</li>
-        <li>Example input:
-            <pre>e2 e4</pre>
-        </li>
+        <li>Example input:</li>
+        <pre>e2 e4</pre>
         <li>The game validates moves according to Chess rules</li>
     </ul>
 </div>
@@ -127,7 +129,7 @@ g++ *.cpp -o chess
 </div>
 
 <div class="section">
-    <h2>👩‍💻 Authors</h2>
+    <h2>Authors</h2>
     <ul>
         <li><strong>Zaima Amjad (25F-0609)</strong></li>
         <li><strong>Saba Tahir (25F-0730)</strong></li>
@@ -140,7 +142,18 @@ g++ *.cpp -o chess
         <li>Applied OOP concepts in a real project</li>
         <li>Managed multiple interacting classes</li>
         <li>Implemented game logic</li>
-        <li>Improved debugging skills</li>
+        <li>Improved debugging and problem-solving skills</li>
+    </ul>
+</div>
+
+<div class="section">
+    <h2>Course Information</h2>
+    <ul>
+        <li><strong>Course:</strong> Object-Oriented Programming</li>
+        <li><strong>Institution:</strong> NUCES Faisalabad-Chiniot Campus</li>
+        <li><strong>Instructor:</strong> Mr. Hannan Farooq</li>
+        <li><strong>Lab Instructor:</strong> Ms. Zainab Noor</li>
+        <li><strong>Session:</strong> Spring 2026</li>
     </ul>
 </div>
 
@@ -151,15 +164,8 @@ g++ *.cpp -o chess
         Object-Oriented Programming in C++.
     </p>
 </div>
-<div class="section">
-    <h2>📘 Course Information</h2>
-    <ul>
-        <li><strong>Course:</strong> Object-Oriented Programming</li>
-        <li><strong>Institution:</strong> NUCES Faisalabad-Chiniot Campus</li>
-        <li><strong>Instructor:</strong> Mr. Hannan Farooq</li>
-        <li><strong>Lab Instructor:</strong> Ms. Zainab Noor</li>
-        <li><strong>Session:</strong> Spring 2026</li>
-    </ul>
+
 </div>
+
 </body>
 </html>
