@@ -1,0 +1,21 @@
+﻿  chess_game.cpp
+  chess_gameplay.vcxproj -> C:\Users\USER\OneDrive\Documents\Visual Studio 18\Projects\chess_gameplay\x64\Debug\chess_gameplay.exe
+  C:\Users\USER\OneDrive\Documents\Visual Studio 18\Projects\chess_gameplay\x64\Debug\chess_gameplay.exe: message: deploying dependencies
+  C:\vcpkg\installed\x64-windows\debug\bin\sfml-graphics-d-3.dll -> C:\Users\USER\OneDrive\Documents\Visual Studio 18\Projects\chess_gameplay\x64\Debug\sfml-graphics-d-3.dll skipped, up to date
+  C:\Users\USER\OneDrive\Documents\Visual Studio 18\Projects\chess_gameplay\x64\Debug\sfml-graphics-d-3.dll: message: deploying dependencies
+  C:\vcpkg\installed\x64-windows\debug\bin\sfml-window-d-3.dll -> C:\Users\USER\OneDrive\Documents\Visual Studio 18\Projects\chess_gameplay\x64\Debug\sfml-window-d-3.dll skipped, up to date
+  C:\Users\USER\OneDrive\Documents\Visual Studio 18\Projects\chess_gameplay\x64\Debug\sfml-window-d-3.dll: message: deploying dependencies
+  C:\vcpkg\installed\x64-windows\debug\bin\sfml-system-d-3.dll -> C:\Users\USER\OneDrive\Documents\Visual Studio 18\Projects\chess_gameplay\x64\Debug\sfml-system-d-3.dll skipped, up to date
+  C:\Users\USER\OneDrive\Documents\Visual Studio 18\Projects\chess_gameplay\x64\Debug\sfml-system-d-3.dll: message: deploying dependencies
+  C:\vcpkg\installed\x64-windows\debug\bin\freetyped.dll -> C:\Users\USER\OneDrive\Documents\Visual Studio 18\Projects\chess_gameplay\x64\Debug\freetyped.dll skipped, up to date
+  C:\Users\USER\OneDrive\Documents\Visual Studio 18\Projects\chess_gameplay\x64\Debug\freetyped.dll: message: deploying dependencies
+  C:\vcpkg\installed\x64-windows\debug\bin\zd.dll -> C:\Users\USER\OneDrive\Documents\Visual Studio 18\Projects\chess_gameplay\x64\Debug\zd.dll skipped, up to date
+  C:\Users\USER\OneDrive\Documents\Visual Studio 18\Projects\chess_gameplay\x64\Debug\zd.dll: message: deploying dependencies
+  C:\vcpkg\installed\x64-windows\debug\bin\bz2d.dll -> C:\Users\USER\OneDrive\Documents\Visual Studio 18\Projects\chess_gameplay\x64\Debug\bz2d.dll skipped, up to date
+  C:\Users\USER\OneDrive\Documents\Visual Studio 18\Projects\chess_gameplay\x64\Debug\bz2d.dll: message: deploying dependencies
+  C:\vcpkg\installed\x64-windows\debug\bin\libpng16d.dll -> C:\Users\USER\OneDrive\Documents\Visual Studio 18\Projects\chess_gameplay\x64\Debug\libpng16d.dll skipped, up to date
+  C:\Users\USER\OneDrive\Documents\Visual Studio 18\Projects\chess_gameplay\x64\Debug\libpng16d.dll: message: deploying dependencies
+  C:\vcpkg\installed\x64-windows\debug\bin\brotlidec.dll -> C:\Users\USER\OneDrive\Documents\Visual Studio 18\Projects\chess_gameplay\x64\Debug\brotlidec.dll skipped, up to date
+  C:\Users\USER\OneDrive\Documents\Visual Studio 18\Projects\chess_gameplay\x64\Debug\brotlidec.dll: message: deploying dependencies
+  C:\vcpkg\installed\x64-windows\debug\bin\brotlicommon.dll -> C:\Users\USER\OneDrive\Documents\Visual Studio 18\Projects\chess_gameplay\x64\Debug\brotlicommon.dll skipped, up to date
+  C:\Users\USER\OneDrive\Documents\Visual Studio 18\Projects\chess_gameplay\x64\Debug\brotlicommon.dll: message: deploying dependencies

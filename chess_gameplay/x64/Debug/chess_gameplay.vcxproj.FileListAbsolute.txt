@@ -1,0 +1,10 @@
+C:\Users\USER\OneDrive\Documents\Visual Studio 18\Projects\chess_gameplay\x64\Debug\sfml-graphics-d-3.dll
+C:\Users\USER\OneDrive\Documents\Visual Studio 18\Projects\chess_gameplay\x64\Debug\sfml-window-d-3.dll
+C:\Users\USER\OneDrive\Documents\Visual Studio 18\Projects\chess_gameplay\x64\Debug\sfml-system-d-3.dll
+C:\Users\USER\OneDrive\Documents\Visual Studio 18\Projects\chess_gameplay\x64\Debug\freetyped.dll
+C:\Users\USER\OneDrive\Documents\Visual Studio 18\Projects\chess_gameplay\x64\Debug\zd.dll
+C:\Users\USER\OneDrive\Documents\Visual Studio 18\Projects\chess_gameplay\x64\Debug\bz2d.dll
+C:\Users\USER\OneDrive\Documents\Visual Studio 18\Projects\chess_gameplay\x64\Debug\libpng16d.dll
+C:\Users\USER\OneDrive\Documents\Visual Studio 18\Projects\chess_gameplay\x64\Debug\brotlidec.dll
+C:\Users\USER\OneDrive\Documents\Visual Studio 18\Projects\chess_gameplay\x64\Debug\brotlicommon.dll
+C:\Users\USER\OneDrive\Documents\Visual Studio 18\Projects\chess_gameplay\chess_gameplay\x64\Debug\chess_ga.3CD82762.Up2Date
